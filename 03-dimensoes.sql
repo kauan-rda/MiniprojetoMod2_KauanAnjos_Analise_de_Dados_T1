@@ -1,6 +1,6 @@
 -- =====================================================================================
 --  ARQUIVO 3:  AS DIMENSOES QUE VOCE PREENCHE
---  Case: Pata Amiga - rede de petshops de SC  |  PostgreSQL 16
+--  Case: Pata Amiga - rede de petshops de SC  |  PostgreSQL 
 -- =====================================================================================
 --  Rode depois de: 01-carga-staging.sql  e  02-dimensoes-prontas.sql
 --
