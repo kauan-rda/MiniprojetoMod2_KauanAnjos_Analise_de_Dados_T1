@@ -6,7 +6,7 @@ A Pata Amiga é uma rede catarinense de pet shops com 32 lojas. Em setembro de 2
 O desafio deste projeto foi integrar dados provenientes de três sistemas distintos (plataforma de e-commerce, cadastro de lojas e planilha de praças) que possuíam graves problemas de padronização estrutural e semântica. O objetivo final é fornecer respostas confiáveis para a diretoria sobre o gargalo logístico, o faturamento por categoria, a eficácia da política de descontos por canal e a performance por praça, embasando a decisão de onde abrir a próxima loja.
 
 ## 2. O modelo construído
-![Diagrama do modelo estrela](diagrama/modelo-estrela.png)
+![Diagrama do modelo estrela](Diagrama/DiagramaEstrela.drawio.png)
 
 - **Grão da fato_pedido:** 1 linha = 1 pedido (exatamente 4.044 linhas).
 - **Dimensões:** 
