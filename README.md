@@ -157,3 +157,4 @@ O banco de dados atual possui limitações estruturais (origem) importantes:
 Com base nas análises de saturação de praça vs. desempenho de vendas e tempo de entrega logístico, a recomendação primária para abertura da próxima loja é na região de Rio dos Cedros (ou microrregião do Vale do Itajaí). Recomenda-se também a revisão do processo interno de Nota -> Despacho para acelerar as entregas e a unificação da política de descontos no canal App. A longo prazo, sugere-se a implementação de um modelo de versionamento histórico (SCD Tipo 2) no cadastro das lojas para acompanhar a evolução das faixas de franquias.
 
 ## 9. Vídeo
+https://drive.google.com/file/d/1SB_QJx1Kf4Id3AJfvfk-cBBjLgmT00sF/view?usp=sharing
