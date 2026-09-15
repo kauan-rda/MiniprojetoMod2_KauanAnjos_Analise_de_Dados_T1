@@ -1,3 +1,4 @@
+-- Retirado parte de create database por utilizar supabase, ja que o banco e vinculado com a abertura do projeto
 -- ----------------------------------------------------------------------------------
 -- stg_pedido  (4044 linhas)
 -- ----------------------------------------------------------------------------------
