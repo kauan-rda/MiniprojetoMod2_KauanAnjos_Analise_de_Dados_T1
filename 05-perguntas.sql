@@ -1,6 +1,6 @@
 -- =====================================================================================
 --  ARQUIVO 5:  AS CINCO PERGUNTAS DE NEGOCIO
---  Case: Pata Amiga - rede de petshops de SC  |  PostgreSQL 16
+--  Case: Pata Amiga - rede de petshops de SC  |  PostgreSQL 
 -- =====================================================================================
 --  Rode depois de: 04-fato.sql
 --
@@ -37,6 +37,7 @@ ORDER BY l.porte;
 --  PADRONIZADO (nunca pela grafia crua). O percentual do total usa uma
 --  subconsulta com o faturamento da rede como denominador.
 
+-- Qual a campea geral?
 SELECT c.nome_categoria,
     SUM(f.vl_liquido) AS faturamento,
     ROUND(100.0 * SUM(f.vl_liquido) / (SELECT SUM(vl_liquido) FROM fato_pedido), 2) AS percentual
