@@ -1,6 +1,6 @@
 -- =====================================================================================
 --  ARQUIVO 4:  A TABELA FATO
---  Case: Pata Amiga - rede de petshops de SC  |  PostgreSQL 16
+--  Case: Pata Amiga - rede de petshops de SC  |  PostgreSQL
 -- =====================================================================================
 --  Rode depois de: 03-dimensoes.sql
 --
@@ -49,7 +49,7 @@ SELECT
         ELSE 'Nao Informado'
     END AS houve_desconto,
 
-    -- ORDEM IMPORTA: WHATS antes de APP
+    -- ORDEM IMPORTA: WHATS antes de APP- diferenciação de canais 
     CASE
         WHEN UPPER(TRIM(p."CanalPedido")) LIKE '%WHATS%' THEN 'WhatsApp'
         WHEN UPPER(TRIM(p."CanalPedido")) LIKE '%APP%'   THEN 'App'
